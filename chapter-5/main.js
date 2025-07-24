@@ -51,6 +51,7 @@ for (var i = 1; i <= 10; i++) {
 }
 
 // Question 6:
+// CELCIUS AND FAHRENHEIT
 document.writeln("<h3>QUESTION 6:</h3>");
 var celsius = 25;
 document.writeln("<br>" + celsius + "°C is " + ((celsius * 9 / 5) + 32) + "°F" + "<br>");
@@ -58,6 +59,7 @@ var fahrenheit = 70;
 document.writeln(fahrenheit + "°F is " + ((fahrenheit - 32) * 5 / 9) + "°C <br><br>");
 
 // Question 7:
+// SHOPPING CART
 document.writeln("<h3>QUESTION 7:</h3>");
 var item1 = 650;
 var item2 = 100;
@@ -75,6 +77,7 @@ document.writeln("Shipping Charges = " + shipping + "<br>");
 document.writeln("Total cost of order = " + ((item1 * quantity1) + (item2 * quantity2) + shipping) + "<br><br>");
 
 // Question 8:
+// MARKS SHEET
 document.writeln("<h3>QUESTION 8:</h3>");
 var marks = 804;
 var totalMarks = 100;
@@ -85,6 +88,7 @@ document.writeln("Marks Obtained: " + marks + "<br>");
 document.writeln("Percentage: " + percentage + "<br><br>");
 
 // Question 9:
+// CURRENCY IN PKR
 document.writeln("<h3>QUESTION 9:</h3>");
 document.writeln("<b> Currency in PKR </b><br>");
 var Dollar1 = 104.80;
@@ -93,15 +97,44 @@ var totalCurrency = ((Dollar1 * 10) + (riyal1 * 25));
 document.writeln("Total currency in PKR: " + totalCurrency + "<br>");
 
 // Question 10
+// ARITHMETIC CALCULATION
 document.writeln("<h3>QUESTION 10:</h3>");
 var integer = 5;
 document.writeln("The arithmetic clculation is " + ((integer + 5) * 10) / 2 + "<br>");
 
 // Question 11
+// AGE CALCULATOR
 document.writeln("<h3>QUESTION 11:</h3>");
-document.writeln("<b>Age Calculator:</b>");
+document.writeln("<b>Age Calculator:</b><br>");
 var currentYear = 2025;
 var birthYear = 2004;
 var age1 = currentYear - birthYear;
 var age2 = age1 - 1;
 document.writeln("They are either " + age2 + " or " + age1 + " years old.");
+
+// Question 12
+//GEOMETRIZER
+document.writeln("<h3>QUESTION 12:</h3>");
+document.writeln("<b>Geometrizer:</b><br>");
+var r = 20 ;
+var rSquare = r * r ;  
+var π = 3.142 ; 
+document.writeln("Radius of a circle: " + r + "<br>");
+document.writeln("The circumference is: " + 2*π*r + "<br>"); //for circumference of a circle  = 2πr
+document.writeln("The area is: " + π*rSquare + "<br>" ); //for area of a circle = πrsquare
+
+// Question 12
+// LIFE TIME SUPPLY CALCULATOR
+document.writeln("<h3>QUESTION 13:</h3>");
+document.writeln("<b>Life Time Supply Calculator:</b><br>");
+var snacks = "French Fries" ;
+var currentAge = 18 ;
+var estimatedMaxAge = 64 ;
+var Amount = 4 ;
+document.writeln("Favourite Snake: " + snacks + "<br>");
+document.writeln("Current age: " + currentAge + "<br>");
+document.writeln("Estimate Maximum Age: " + estimatedMaxAge + "<br>");
+document.writeln("Amount of snacks per day: " + Amount + "<br>");
+document.writeln("You will need " + (estimatedMaxAge-currentAge)*Amount + " chocolate chip to last you until the ripe old age of " + estimatedMaxAge + "<br>"); 
+
+// -----------------------END--------------------
