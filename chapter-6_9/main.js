@@ -1,5 +1,5 @@
 document.writeln(
-    `<h1><center>Chapter 06</center></h1>
+    `<h1><center>Chapter 06-9</center></h1>
      <h2><center>Assignment #6</center></h2>
      <h2><center>Math Expressions</center></h2>`
 )
